@@ -127,6 +127,7 @@ def main() -> None:
         # Error handling
         try:
             user_input = int(input("Enter your choice: "))
+            # Process user choice
             if user_input < 1 or user_input > 5:
                 print("Choice must be between 1 and 5.")
                 continue
